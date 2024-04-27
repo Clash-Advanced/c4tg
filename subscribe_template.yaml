@@ -1,0 +1,23 @@
+# Copyright (C) 2024 originalFactor
+# 
+# This file is part of embyHelp.
+# 
+# embyHelp is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# embyHelp is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with embyHelp.  If not, see <https://www.gnu.org/licenses/>.
+
+health-check:
+  enable: true
+  interval: 3600
+  url: 'http://www.gstatic.com/generate_204'
+interval: 86400
+type: http
